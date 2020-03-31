@@ -173,4 +173,16 @@
     gap: 5rem;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .hero-heading {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+
+  .clients-heading {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+}
 /*End of Media Queries */
