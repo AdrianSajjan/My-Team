@@ -1,0 +1,99 @@
+<footer class="footer">
+  <div class="container footer-container">
+    <div class="footer-brand">
+      <a href="/index.html" class="brand-name">myteam</a>
+      <div class="footer-nav">
+        <ul class="nav-links">
+          <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-address">
+      <p>987 Hillcrest Lane</p>
+      <p>Irvine, CA</p>
+      <p>California 92714</p>
+      <p>Call Us : 949-833-7432</p>
+    </div>
+    <div class="footer-misc">
+      <div class="footer-social-links">
+        <a href="#" class="footer-social-link">
+          <i class="fab fa-facebook fa-lg"></i>
+        </a>
+        <a href="#" class="footer-social-link">
+          <i class="fab fa-pinterest fa-lg"></i>
+        </a>
+        <a href="#" class="footer-social-link">
+          <i class="fab fa-twitter fa-lg"></i>
+        </a>
+      </div>
+      <p class="footer-copyright">Copyright 2020.<br />All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  /* Footer */
+  .footer {
+    width: 100%;
+    background-color: var(--dark-blue);
+  }
+
+  .footer-container {
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr;
+    gap: 1rem;
+  }
+
+  .footer-nav {
+    margin-top: 10px;
+  }
+
+  .footer-nav .nav-links {
+    display: flex;
+  }
+
+  .footer-nav .nav-item:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  .footer-address {
+    color: rgb(190, 190, 190);
+    font-size: 0.9rem;
+    font-weight: bold;
+    padding-top: 12px;
+  }
+
+  .footer-misc {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .footer-social-link {
+    margin: 0 10px;
+    transition: color 0.2s linear;
+  }
+
+  .footer-social-link:first-child {
+    margin-right: 0;
+  }
+
+  .footer-social-link:last-child {
+    margin-left: 0;
+  }
+
+  .footer-social-link:hover {
+    color: lightblue;
+  }
+
+  .footer-copyright {
+    font-weight: bold;
+    font-size: 1rem;
+    color: gray;
+    text-align: right;
+  }
+  /* End of Footer */
+</style>

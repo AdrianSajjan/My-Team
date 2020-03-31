@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Fontawesome -->
+    <script src="./js/vendor/fontawesome.js"></script>
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/index.css" />
+    <title>myteam</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header"></section>
+    <!-- End of Header -->
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="container hero-container">
+        <div class="hero-title">
+          <h1 class="hero-heading">
+            Find the<br />best <span class="pink-text">talent</span>
+          </h1>
+        </div>
+        <div class="hero-content">
+          <hr class="hero-break" />
+          <p class="hero-subheading">
+            Finding the right people and building high performing teams can be
+            hard. Most companies aren't tapping into the abundance of global
+            talent. We're about to change that.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- End of Hero -->
+    <!-- Skills -->
+    <section id="skills" class="skills">
+      <div class="container skills-container">
+        <div class="skills-title">
+          <hr class="skills-break" />
+          <h1 class="skills-heading">
+            Build & manage<br />distibuted teams<br />like no one else.
+          </h1>
+        </div>
+        <div class="skills-cards">
+          <div class="skill">
+            <div class="skill-text">
+              <p class="skill-title">Experienced Individuals</p>
+              <p class="skill-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+                modi!
+              </p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-text">
+              <p class="skill-title">Easy to implement</p>
+              <p class="skill-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+                modi!
+              </p>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-text">
+              <p class="skill-title">Enhanced Productivity</p>
+              <p class="skill-subtitle">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem,
+                modi!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Skills -->
+    <!-- Clients -->
+    <section id="clients" class="clients">
+      <div class="container clients-container">
+        <h1 class="clients-heading">
+          Delivering real results for top<br />companies. Some of our
+          <span class="pink-text">success stories.</span>
+        </h1>
+        <div class="client-cards">
+          <div class="client-card">
+            <i class="fas fa-quote-left fa-4x client-quote"></i>
+            <p class="client-testimonial">
+              "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
+              ipsa, ipsum commodi vitae quos ducimus qui non tenetur est
+              reiciendis, harum veniam ducimus veritatis nobis?"
+            </p>
+            <div class="client-details">
+              <p class="client-name">Kady Baker</p>
+              <p class="client-designation">Manager at Bookmark</p>
+            </div>
+          </div>
+          <div class="client-card">
+            <i class="fas fa-quote-left fa-4x client-quote"></i>
+            <p class="client-testimonial">
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit enim
+              inventore eveniet vero atque neque tempora, facere perferendis
+              officiis quasi voluptates, voluptatibus cum optio dolore dolor?"
+            </p>
+            <div class="client-details">
+              <p class="client-name">Alusha Reese</p>
+              <p class="client-designation">Founder of Manage</p>
+            </div>
+          </div>
+          <div class="client-card">
+            <i class="fas fa-quote-left fa-4x client-quote"></i>
+            <p class="client-testimonial">
+              "Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Reprehenderit, aut deserunt? Corrupti, dolore nemo officiis,
+              tempora fugit similique suscipit nesciunt iure eaque, quae impedit
+              amet."
+            </p>
+            <div class="client-details">
+              <p class="client-name">Arthur Clarke</p>
+              <p class="client-designation">Co-founder of MyPhysio</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End of Clients -->
+    <!-- Contact Banner -->
+    <section id="contact-banner"></section>
+    <!-- End of Contact Banner -->
+    <!-- Footer -->
+    <section id="footer"></section>
+    <!-- End of Footer -->
+    <!-- Scripts -->
+    <script src="js/vendor/jquery.min.js"></script>
+    <script>
+      $(() => {
+        $("#header").load("/components/navbar.html");
+        $("#contact-banner").load("/components/contact-banner.html");
+        $("#footer").load("/components/footer.html");
+      });
+    </script>
+  </body>
+</html>

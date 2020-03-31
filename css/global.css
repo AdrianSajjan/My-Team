@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400;600&display=swap");
+
+/* Variables */
+
+:root {
+  --primary-font: "Baloo Thambi 2", cursive;
+  --blue: #005a60;
+  --dark-blue: #032e34;
+  --light-blue: #005b69;
+  --pink: #f67e7f;
+}
+
+/* End of Variables */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--primary-font);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.brand-name {
+  font-size: 2rem;
+}
+
+.nav-link {
+  transition: color 0.2s linear;
+  color: white;
+}
+
+.nav-link:hover {
+  color: var(--pink);
+}
+
+.btn-outline {
+  border: 1.5px solid white !important;
+  color: white !important;
+  background-color: transparent !important;
+  border-radius: 100vh !important;
+  padding: 5px 20px !important;
+  transition: 0.2s linear !important;
+}
+
+.btn-outline:hover {
+  color: var(--pink) !important;
+  border-color: var(--pink) !important;
+}
+
+.btn-outline-dark {
+  border: 1.5px solid var(--dark-blue) !important;
+  color: var(--dark-blue) !important;
+  background-color: transparent !important;
+  border-radius: 100vh !important;
+  padding: 5px 20px !important;
+  transition: 0.2s linear !important;
+}
+
+.btn-outline-dark:hover {
+  color: var(--blue) !important;
+  border-color: var(--blue) !important;
+}
+
+.pink-text {
+  color: var(--pink) !important;
+}

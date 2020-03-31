@@ -1,0 +1,176 @@
+@import "./global.css";
+
+.hero {
+  background-color: var(--light-blue);
+}
+
+.hero-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  padding: 5rem 0 10rem;
+}
+
+.hero-heading {
+  color: white;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-break {
+  width: 50px;
+  border: none;
+  background-color: white;
+  height: 3px;
+  opacity: 0.7;
+}
+
+.hero-subheading {
+  color: white;
+  margin-top: auto;
+  margin-bottom: 12px;
+}
+
+.skills {
+  background-color: var(--dark-blue);
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  padding: 5rem 0;
+}
+
+.skills-break {
+  border: none;
+  height: 3px;
+  background-color: var(--pink);
+  width: 50px;
+}
+
+.skills-heading {
+  color: white;
+  font-size: 2rem;
+  margin-top: 3rem;
+}
+
+.skills-cards {
+  padding-top: 3rem;
+}
+
+.skill {
+  display: block;
+  margin: 20px 0;
+}
+
+.skill:first-child {
+  margin-top: 0;
+}
+
+.skill:last-child {
+  margin-bottom: 0;
+}
+
+.skill-title {
+  color: lightblue;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.skill-subtitle {
+  color: white;
+}
+
+.clients {
+  background-color: var(--blue);
+}
+
+.clients-container {
+  padding: 5rem 0;
+}
+
+.clients-heading {
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 3rem;
+  color: white;
+}
+
+.client-cards {
+  margin-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  text-align: center;
+}
+
+.client-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+
+.client-quote {
+  position: absolute;
+  color: lightblue;
+  opacity: 0.3;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.client-testimonial {
+  color: white;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.client-details {
+  margin-top: 20px;
+}
+
+.client-name {
+  color: var(--pink);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.client-designation {
+  color: white;
+  font-style: italic;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  .hero-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 2rem;
+  }
+
+  .hero-break {
+    display: none;
+  }
+
+  .skills-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+  }
+
+  .skills-break {
+    margin: 0 auto;
+  }
+
+  .client-cards {
+    grid-template-columns: 1fr;
+    gap: 5rem;
+  }
+}
+/*End of Media Queries */
