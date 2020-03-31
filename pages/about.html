@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <script src="../js/vendor/fontawesome.js"></script>
+    <link rel="stylesheet" href="../css/about.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <section id="header"></section>
+    <!--End of Header -->
+    <section id="hero" class="hero">
+      <div class="container hero-container">
+        <div class="hero-title">
+          <h1 class="hero-heading">About</h1>
+        </div>
+        <div class="hero-content">
+          <hr class="hero-break" />
+          <p class="hero-subheading">
+            We help companies build dynamic teams made up of top global talent. 
+            Using our network of passionate professionals we drive innovation and deliver 
+            incredible outcomes. Talented, diverse teams shape the best products and experiences.
+            We'll bring these teams to you.
+          </p>
+        </div>
+      </div>
+    <!-- Contact Banner -->
+    <section id="contact-banner"></section>
+    <!-- End of Contact Banner -->
+    <!-- Footer -->
+    <section id="footer"></section>
+    <!-- End of Footer -->
+    <!-- Scripts -->
+    <script src="../js/vendor/jquery.min.js"></script>
+    <script src="../js/navbar.js"></script>
+    <script>
+      $(() => {
+        $("#header").load("../components/navbar.html");
+        $("#contact-banner").load("../components/contact-banner.html");
+        $("#footer").load("../components/footer.html");
+      });
+    </script>
+  </body>
+</html>

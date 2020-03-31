@@ -4,8 +4,10 @@
       <a href="/index.html" class="brand-name">myteam</a>
       <div class="footer-nav">
         <ul class="nav-links">
-          <li class="nav-item"><a href="#" class="nav-link">home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+          <li class="nav-item"><a href="/" class="nav-link">home</a></li>
+          <li class="nav-item">
+            <a href="../pages/about.html" class="nav-link">about</a>
+          </li>
         </ul>
       </div>
     </div>
@@ -17,13 +19,13 @@
     </div>
     <div class="footer-misc">
       <div class="footer-social-links">
-        <a href="#" class="footer-social-link">
+        <a href="https://www.facebook.com" class="footer-social-link">
           <i class="fab fa-facebook fa-lg"></i>
         </a>
-        <a href="#" class="footer-social-link">
+        <a href="https://www.pinterest.com" class="footer-social-link">
           <i class="fab fa-pinterest fa-lg"></i>
         </a>
-        <a href="#" class="footer-social-link">
+        <a href="https://www.twitter.com" class="footer-social-link">
           <i class="fab fa-twitter fa-lg"></i>
         </a>
       </div>
@@ -96,7 +98,7 @@
     text-align: right;
   }
   /* End of Footer */
-  @media screen and (max-width: 596px) {
+  @media screen and (max-width: 768px) {
     .footer-container {
       grid-template-columns: 1fr;
       text-align: center;
@@ -108,6 +110,7 @@
 
     .footer-misc {
       align-items: center;
+      margin-top: 1rem;
     }
 
     .footer-copyright {
