@@ -183,7 +183,7 @@ body {
 }
 
 .card-btn:hover {
-  box-shadow: 2px 4px 8px 4px rgba(246, 126, 126, 0.2);
+  box-shadow: 2px 4px 8px 4px rgba(0, 0, 0, 0.3);
 }
 
 .card-btn.card-btn-active {
