@@ -1,5 +1,9 @@
 @import "./global.css";
 
+body {
+  background-color: var(--blue);
+}
+
 .contact {
   background-color: var(--light-blue);
   min-height: calc(100vh - 255px);
