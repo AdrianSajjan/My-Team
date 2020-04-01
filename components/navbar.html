@@ -26,8 +26,16 @@
   </div>
 </header>
 
-<script src="../js/navbar.js"></script>
-<script src="../js/vendor/jquery.min.js"></script>
+<script>
+  $(() => {
+    $targetNav = $(".nav-collapse").attr("data-target");
+    $(".nav-collapse").click(() => {
+      $(".nav-collapse").toggleClass("collapsed");
+      $(".nav-collapse").toggleClass("open");
+      $($targetNav).toggleClass("show-nav");
+    });
+  });
+</script>
 
 <style>
   /* Navbar */
