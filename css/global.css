@@ -7,7 +7,7 @@
   --blue: #00464b;
   --dark-blue: #032e34;
   --light-blue: #005b69;
-  --pink: #f67e7f;
+  --pink: #f67e7e;
 }
 
 /* End of Variables */
@@ -85,3 +85,19 @@ ul {
 .pink-text {
   color: var(--pink) !important;
 }
+
+/* Custom Auto Complete */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-text-fill-color: white;
+  -webkit-box-shadow: 0 0 0px 1000px var(--light-blue) inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+/* End of Custom Autocomplete */

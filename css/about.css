@@ -182,6 +182,10 @@ body {
   transition: 0.2s linear;
 }
 
+.card-btn:hover {
+  box-shadow: 2px 4px 8px 4px rgba(246, 126, 126, 0.2);
+}
+
 .card-btn.card-btn-active {
   transform: translate(-50%, 50%) rotate(45deg);
   background-color: lightblue;

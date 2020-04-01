@@ -100,12 +100,12 @@ body {
 }
 
 .form-input:focus,
-.form-input:valid {
+.form-input.form-input-active {
   border-color: var(--dark-blue);
 }
 
 .form-input:focus + .form-label,
-.form-input:valid + .form-label {
+.form-input.form-input-active + .form-label {
   color: var(--dark-blue);
   transform: translate(0, -1.2rem);
   font-size: 1rem;
